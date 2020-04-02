@@ -1,3 +1,3 @@
-line one.
-this is second line.
-and the last line number 3.
+line one text
+another line
+and final line
