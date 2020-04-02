@@ -1,3 +1,0 @@
-line one text
-another line
-and final line
