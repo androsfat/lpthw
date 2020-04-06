@@ -20,3 +20,9 @@ cheese_and_crackers(10 + 20,  5 + 6)
 
 print("And we can combine the two, variables and math:")
 cheese_and_crackers(amount_of_cheese + 100, amount_of_crackers)
+
+print("Now your input!")
+amount_cheese = int(input("Enter amount of cheese: "))
+amount_crackers = int(input("... and amount of crackers: "))
+
+cheese_and_crackers(amount_cheese, amount_crackers)
