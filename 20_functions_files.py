@@ -8,6 +8,7 @@ def print_all(f):
     print(f.read())
 
 
+# Move read at beginning of file
 def rewind(f):
     f.seek(0)
 
@@ -30,8 +31,10 @@ print("Let's print 3 lines:")
 current_line = 1
 print_a_line(current_line, current_file)
 
-current_line = current_line + 1
+# going to line 2
+current_line += 1
 print_a_line(current_line, current_file)
 
-current_line = current_line + 1
+# going to line 3
+current_line += 1
 print_a_line(current_line, current_file)
