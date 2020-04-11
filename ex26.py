@@ -13,7 +13,7 @@ script, filename = argv
 
 txt = open(filename)
 
-print("Here's your file {filename}:")
+print(f"Here's your file {filename}:")
 print(txt.read())
 
 print("Type the filename again:")
@@ -59,7 +59,7 @@ print("With a starting point of: {}".format(start_point))
 # it's just like with an f"" string
 print(f"We'd have {beans} beans, {jars} jars, and {crates} crates.")
 
-start_point = start_point / 10
+start_point /= 10
 
 print("We can also do that this way:")
 formula = secret_formula(start_point)
