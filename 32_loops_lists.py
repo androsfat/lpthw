@@ -24,6 +24,10 @@ for i in range(0, 6):
     # append is a  function that lists understand
     elements.append(i)
 
+# The above could have been done as below:
+elements = [range(0, 6)]
+print(elements)
+
 # now we can print them out to
 for i in elements:
     print(f"Element was: {i}")
