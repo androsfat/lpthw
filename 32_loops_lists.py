@@ -25,7 +25,7 @@ for i in range(0, 6):
     elements.append(i)
 
 # The above could have been done as below:
-elements = [range(0, 6)]
+elements = list(range(0, 6))
 print(elements)
 
 # now we can print them out to
